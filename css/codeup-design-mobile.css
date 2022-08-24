@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width:650px) {
+    body {
+        background-color: #E6E6E6;
+
+    }
+    .nav-bar{
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: -15px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .list {
+        height: 55px;
+        width: 75px;
+        padding: 5px;
+        border: 2px solid lightgrey;
+        border-radius: 5px;
+
+    }
+    /*Resize nav-bar */
+    /*.list {*/
+    /*    height: 105px;*/
+    /*    width: 105px;*/
+    /*}*/
+    img {
+        height: 60px;
+        width: 60px;
+    }
+    h1, h2{
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .header-tag > h1 {
+        font-size: 75px;
+        /*font-family: ', sans-serif;*/
+        /*font-weight: 900;*/
+    }
+    .header-tag{
+        margin: 85px 18px 55px 18px;
+    }
+    .sub-header > h2 {
+        font-size: 45px;
+    }
+    /*our thought process before*/
+    .circle-container{
+        height: 105px;
+        width: 105px;
+        margin: 30px;
+        border: 10px solid #F0F0F0;
+        border-radius: 50px;
+        color: #F0F0F0;
+    }
+    .circle-design{
+        height: 105px;
+        width: 105px;
+        margin: 30px;
+        border: 10px solid #F0F0F0;
+        border-radius: 50px;
+        color: #F0F0F0;
+    }
+    .circle-develop{
+        height: 105px;
+        width: 105px;
+        margin: 30px;
+        border: 10px solid #F0F0F0;
+        border-radius: 50px;
+        color: #F0F0F0;
+
+    }
+
+    .circle-support{
+        height: 105px;
+        width: 105px;
+        margin: 30px;
+        border: 10px solid #F0F0F0;
+        border-radius: 50px;
+        color: #F0F0F0;
+    }
+
+    .circle-host{
+        height: 105px;
+        width: 105px;
+        margin: 30px;
+        border: 10px solid #F0F0F0;
+        border-radius: 50px;
+        color: #F0F0F0;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .flex-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .circle-design, .circle-support{
+        flex-direction: column;
+        align-content: center;
+    }
+}
