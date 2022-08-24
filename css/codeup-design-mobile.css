@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:576px) {
     body {
         background-color: #E6E6E6;
 
@@ -72,6 +72,7 @@
         border: 10px solid #F0F0F0;
         border-radius: 50px;
         color: #F0F0F0;
+        background-color: #e6563b;
     }
     .circle-develop{
         height: 105px;
@@ -80,6 +81,7 @@
         border: 10px solid #F0F0F0;
         border-radius: 50px;
         color: #F0F0F0;
+        background-color: #EB9D3A;
 
     }
 
@@ -90,6 +92,7 @@
         border: 10px solid #F0F0F0;
         border-radius: 50px;
         color: #F0F0F0;
+        background-color: #7CB06C;
     }
 
     .circle-host{
@@ -99,6 +102,7 @@
         border: 10px solid #F0F0F0;
         border-radius: 50px;
         color: #F0F0F0;
+        background-color: #00ABA9;
     }
 
     p{
@@ -106,16 +110,20 @@
         margin-top: 30px;
     }
 
-    .flex-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+/*    .flex-container{*/
+/*        width: 100%;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        justify-content: space-around;*/
 
-    }
+/*    }*/
 
-    .circle-design, .circle-support{
-        flex-direction: column;
-        align-content: center;
+/*    .circle-design, .circle-support{*/
+/*        flex-direction: column;*/
+/*        align-content: center;*/
+/*    }*/
+/*}*/
+    .circle-grid-container{
+
     }
 }
