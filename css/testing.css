@@ -1,0 +1,56 @@
+.circle-container{
+    height: 105px;
+    width: 105px;
+    margin: 10px;
+    border: 7px solid #F0F0F0;
+    border-radius: 50px;
+    color: #F0F0F0;
+}
+.circle-design{
+    height: 105px;
+    width: 105px;
+    margin: 15px;
+    border: 7px solid #F0F0F0;
+    border-radius: 50px;
+    color: #F0F0F0;
+    background-color: #e6563b;
+}
+.circle-develop{
+    height: 105px;
+    width: 105px;
+    margin: 15px;
+    border: 7px solid #F0F0F0;
+    border-radius: 50px;
+    color: #F0F0F0;
+    background-color: #EB9D3A;
+
+}
+
+.circle-support{
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border: 7px solid #F0F0F0;
+    border-radius: 60%;
+    color: #F0F0F0;
+    background-color: #7CB06C;
+}
+
+.circle-host{
+    height: 105px;
+    width: 105px;
+    margin: 15px;
+    border: 7px solid #F0F0F0;
+    border-radius: 50px;
+    color: #F0F0F0;
+    padding: 0;
+    background-color: #00ABA9;
+}
+
+p{
+    text-align: center;
+    margin-top: 30px;
+}
+.big-circle-container{
+    margin-top: 60px;
+}
